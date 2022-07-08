@@ -5,38 +5,38 @@ global.thum = fs.readFileSync("./media/zaki.jpg")
 
 global.autoReadAll = true 
 
-// '6285878313791' ganti nomor kalian '628xxxxxx'
-//KiZakiXD ganti nama kalian xxxxz
+// '6282362285077' ganti nomor kalian '628xxxxxx'
+//Juvian ganti nama kalian xxxxz
 //Silahkan sesuaikan sendiri ya
 
 // Ganti Sewajarnya
-global.owner = ['6285878313791']
-global.pengguna = 'KiZakiXD'
-global.premium = []
-global.author = 'KiZakiXD'
-global.pemilik = ['6285878313791'] 
-global.ownernomer = '6285878313791'
-global.ownername = 'KiZakiXD'
-global.botname = 'Chitanda - MD'
+global.owner = ['6282362285077']
+global.pengguna = 'Juviann'
+global.premium = ['6285814772930','6282362285077]
+global.author = 'Juviann'
+global.pemilik = ['6282362285077'] 
+global.ownernomer = '6282362285077'
+global.ownername = 'Juviann'
+global.botname = 'Viann - MD'
 global.tengah = "									"
 global.Prefix = 'Multi Prefix'
-global.meki = '6285878313791'
-global.footer = '𝘊 𝘩 𝘪 𝘵 𝘢 𝘯 𝘥 𝘢 - 𝘔 𝘋'
+global.meki = '6282362285077'
+global.footer = 'V i a n n - 𝘔 𝘋'
 //Isi Sesuai Namalu Buat Tambah Tqtq
-global.namalu = 'Namalu' //Ubah nama kalian buat nambahin di tqtq bot
+global.namalu = 'Juvian' //Ubah nama kalian buat nambahin di tqtq bot
 global.footer1 = 'Jangan Spam Bot.'
 global.footer2 = 'Jika Menemukan Bug Lapor Ke Owner.'
-global.yt = 'https://www.youtube.com/channel/UCHdipvk52k43KsPRenGpD0w' //Jika tidak ada yt jangan diubah buat promosi owner xixixixi
-global.ig = 'https://instagram.com/iamkizakixd'
-global.gc = 'https://chat.whatsapp.com/IJ5ull4HXaY647D6ACw4kj' //join ya kadang kadang pada eval bot disitu lumayan dapet fitur baru wkwkwk
-global.dana = '00000'
-global.gopay = '0000'
-global.wame = 'wa.me/6285878313791'
-global.email = 'helloiamkizakixd@gmail.com'
+global.yt = 'https://youtube.com/channel/UCL-1ccm0on-hBuh2GWLaZRA' //Jika tidak ada yt jangan diubah buat promosi owner xixixixi
+global.ig = 'https://instagram.com/tarunatam00'
+global.gc = 'https://chat.whatsapp.com/FvVp4ePuehu56rzaUOgNiZ' //join ya kadang kadang pada eval bot disitu lumayan dapet fitur baru wkwkwk
+global.dana = '082362285077'
+global.gopay = '082362285077'
+global.wame = 'wa.me/6282362285077'
+global.email = 'johanmichael929@gmail.com'
 global.region = 'Indonesia'
-global.link = 'nekopoi.care'
-global.sc = 'https://bit.ly/SubscribeFLOB'
-global.packname = '"{\nAuthor: KiZakiXD"\n"Bot Number: 6285848376737"\n"Bot Name: Chitanda - MD"\n"Instagram: @iamkizakixd"\n}' 
+global.link = 'https://chat.whatsapp.com/FvVp4ePuehu56rzaUOgNiZ'
+global.sc = 'https://bit.ly/YahahahHayuk'
+global.packname = '"{\nAuthor: Juviann"\n"Bot Number: 6282362285077"\n"Bot Name: Chitanda - MD"\n"Instagram: @iamkizakixd"\n}' 
 global.author = '' 
 global.sessionName = 'session'
 global.prefa = ['#','!','/','']
@@ -396,12 +396,12 @@ global.ccomannya = `
  » tupai
 `
 global.sewanya =
-'  *» List Sewabot :*\n   _• Sewa Bot 1 Minggu : 7K_\n   _• Sewa Bot 1 Bulan : 15K_\n   _• Sewa Bot 1 Tahun : 30K_'
+'  *» List Sewabot :*\n   _• Sewa Bot 1 Minggu : 10K_\n   _• Sewa Bot 2 Minggu : 15K_\n   _• Sewa Bot 1 Bulan : 30K_'
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
 	console.log(chalk.redBright(`Update'${__filename}'`))
 	delete require.cache[file]
-	require(file)
+	require(file) 
 })
